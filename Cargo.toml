@@ -1,0 +1,16 @@
+[package]
+name = "format-json"
+version = "0.1.0"
+authors = ["Balazs Horvath"]
+edition = "2024"
+
+[dependencies]
+xio = { path = "../xio", version = "0.1.2" }
+dset = { path = "../dset", version = "0.1.2" }
+serde_json = "1.0.138"
+walkdir = "2.5.0"
+tokio = { version = "1.43.0", features = ["full"] }
+anyhow = { version = "1.0.95", features = ["backtrace"] }
+
+[dev-dependencies]
+tempfile = "3.17.0"

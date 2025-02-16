@@ -3,6 +3,8 @@ name = "format-json"
 version = "0.1.0"
 authors = ["Balazs Horvath"]
 edition = "2024"
+description = "A CLI tool for recursively formatting JSON files."
+license = "MIT"
 
 [dependencies]
 xio = { path = "../xio", version = "0.1.2" }

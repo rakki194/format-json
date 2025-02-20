@@ -5,6 +5,11 @@ authors = ["Balazs Horvath"]
 edition = "2024"
 description = "A CLI tool for recursively formatting JSON files."
 license = "MIT"
+repository = "https://github.com/rakki194/format-json"
+homepage = "https://github.com/rakki194/format-json"
+documentation = "https://docs.rs/format-json"
+keywords = ["json", "formatter", "cli", "recursive", "batch"]
+categories = ["command-line-utilities", "development-tools", "text-processing"]
 
 [dependencies]
 xio = { path = "../xio", version = "0.1.3" }
